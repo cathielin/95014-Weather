@@ -1,0 +1,36 @@
+
+body { 
+    background-color: rgb(250, 250, 250);
+}
+
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image { 
+    max-width: 500px;
+    max-height: 50%;
+    padding-right: 500px;
+    padding-left: 500px;
+    
+}
+
+.typography { 
+    position: absolute !important;
+    top: 40% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman", Times, serif !important;
+}
+@media (max-width: 770px) { 
+    .container { 
+        margin: 0 1%;
+    }
+    .image { 
+        width: 100%; 
+
+    }
+}
