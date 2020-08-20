@@ -2,7 +2,7 @@ import axios from 'axios'; // used for api requests
 require('dotenv').config();
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-const ZIP_KEY = process.env.REACT_APP_API_KEY;
+const ZIP_KEY = process.env.REACT_APP_ZIP_KEY;
 
 const url = `https://api.openweathermap.org/data/2.5/forecast`;
 const todayURL = `https://api.openweathermap.org/data/2.5/weather`;
@@ -12,6 +12,7 @@ export const fetchZipCode = async(zip) => {
     try { 
         // Fetch data from zip code API
         const {data} = await axios.get(`${zipURL}/${zip}?key=${ZIP_KEY}`);
+        console.log(data);
         if(!data.Error) {
             console.log(data.City);
             return data.City;
