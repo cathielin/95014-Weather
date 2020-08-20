@@ -1,13 +1,30 @@
 # 95014-Weather-App
-A weather app created with ReactJS that gives a simple 5 day weather forecast for any zipcode in the US. OpenWeatherAPI provides the forecast information, while Zip-Code API was used for the zipcode look up and valildation.
+A weather app created with ReactJS that gives a simple 5 day weather forecast for any zipcode in the US. OpenWeatherAPI provides the forecast information, while Zip-Code API was used for the zipcode look up and validation. Material UI was used for components like the card and search bar.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Important Notes 
-Project's API files will be added soon.
+Still working on documentation
 
 ## Motivation 
-The app was a way for me to practice using ReactJS and building a simple web app. 
+The app was born out of curiosity! I wanted to play around with ReactJS and build something by myself. This is my first project using React.
+The animated text that loads at the beginning of the screen was done with the help of a HTML/CSS tutorial, just for added fun and experimentation.
+
+### What This Project Helped Me With:
+<ul>
+  <li>Better understanding of states and components in React</li>
+  <li>How to create a search bar with React</li>
+  <li>How to access API endpoints</li>
+  <li>Working with JSON format data</li>
+  <li>How to properly store API keys in environment variables</li>
+  <li>Introduction to animating SVG images with CSS</li>
+</ul>
+
+### Possible Future Changes:
+<ul>
+  <li>Displaying more detailed weather information through a card that expands to show more information</li>
+  <li>Better UI design</li>
+</ul>
 
 ## Available Scripts
 
@@ -20,12 +37,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Screenshots
-Screenshots to be provided soon.
+![](app_view_images/view1.png)
+![](app_view_images/initial_refresh.gif)
+![](app_view_images/zipcode_example.gif)
+
 
 ## Languages/Framework
-ReactJS, MaterialUI
+Javascript, ReactJS, MaterialUI, HTML/CSS
 
 ## API Reference 
 [Current Weather Data from OpenWeather](https://openweathermap.org/current) <br/>
 [5 day / 3 hour Forecast Data from Open Weather](https://openweathermap.org/forecast5) <br />
-[Zip Code Data](https://www.zip-codes.com/zip-code-api-documentation.asp) 
+[Zip Code Data](https://www.zip-codes.com/zip-code-api-documentation.asp) <br/>
+[Weather Icons](https://icons8.com) 
