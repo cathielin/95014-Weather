@@ -3,8 +3,13 @@ A weather app created with ReactJS that gives a simple 5 day weather forecast fo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Important Notes 
-Still working on documentation
+### [View a working deployment of this app on Heroku](https://weather-95014.herokuapp.com/)
+
+## Screenshots
+![](app_view_images/view1.png)
+![](app_view_images/initial_refresh.gif)
+![](app_view_images/zipcode_example.gif)
+
 
 ## Motivation 
 The app was born out of curiosity! I wanted to play around with ReactJS and build something by myself. This is my first project using React.
@@ -36,13 +41,7 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-## Screenshots
-![](app_view_images/view1.png)
-![](app_view_images/initial_refresh.gif)
-![](app_view_images/zipcode_example.gif)
-
-
-## Languages/Framework
+## Languages/Framework/Libraries
 Javascript, ReactJS, MaterialUI, HTML/CSS
 
 ## API Reference 
